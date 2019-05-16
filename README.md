@@ -1,8 +1,17 @@
 # terraform-gce-vault
 
-Launches Vault in GCE.
+Launches Vault in GCE using [terraform-google-vault](https://github.com/terraform-google-modules/terraform-google-vault) module.
 
 This repository was tested with `Terraform v0.11.13` and `Vault v1.1.2`.
+
+## Prerequisites
+
+* Install [jq](https://stedolan.github.io/jq/)
+* Install [Google Cloud SDK](https://cloud.google.com/sdk/install)
+* Install [Vault](https://www.vaultproject.io/docs/install/)
+* Change [Project ID](https://github.com/alexandarp/terraform-gce-vault/blob/master/variables.tf#L3)
+* Enable Compute Engine API
+* Increase GCE Static Address Quota
 
 ## Usage
 
