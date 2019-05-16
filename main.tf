@@ -1,10 +1,10 @@
 resource "google_kms_key_ring" "default" {
-  name     = "vault"
+  name     = "vault-key-ring"
   location = "${var.region}"
 }
 
 data "google_kms_crypto_key" "default" {
-  name     = "vault-key"
+  name     = "vault-crypto-key"
   key_ring = "${data.google_kms_key_ring.default.self_link}"
 }
 
