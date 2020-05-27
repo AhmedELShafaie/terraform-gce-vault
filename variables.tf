@@ -17,3 +17,4 @@ variable "kms_crypto_key" {
   default     = "vault-init"
   description = "Name of the GCP KMS crypto key"
 }
+
