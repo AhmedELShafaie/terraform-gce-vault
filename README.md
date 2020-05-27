@@ -2,7 +2,7 @@
 
 Launches Vault in GCE using [terraform-google-vault](https://github.com/terraform-google-modules/terraform-google-vault) module.
 
-This repository was tested with `Terraform v0.11.13` and `Vault v1.1.2`.
+This repository was tested with `Terraform v0.12.25` and `Vault v1.1.3`.
 
 ## Prerequisites
 
